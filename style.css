@@ -15,12 +15,12 @@ body{
     flex-direction: column;  
 }
 .logo-links{
-    height: 100px;
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px;
+    /* padding: 0px 100px; */
     align-items: center;
+    margin: 22px 50px;
 }
 
 .logo-links img{
@@ -43,17 +43,18 @@ ul li a{
 .about{
     display: flex;
     flex-direction: row;
-    padding: 10px 100px;
-    height: 100%;
+    /* padding: 10px 100px; */
+    /* height: 100%; */
     align-items: center;
-    justify-content: center;
-    margin: 20px;
+    /* justify-content: center; */
+    margin: 20px 50px;
+    column-gap: 10px;
 }
 
 .about-text{
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    /* row-gap: 20px; */
 }
 
 .about-text h1{
@@ -81,7 +82,7 @@ ul li a{
 .header-image img{
     height: 250px;
     width: 500px;
-    flex-shrink:0 ;
+    /* flex-shrink:0 ; */
 
 }
 .body{
@@ -90,8 +91,9 @@ ul li a{
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 50vh;
+    /* height: 50vh; */
     row-gap: 30px;
+    margin: 10px 0px;
 }
 .body h3{
     font-size: 30px;
@@ -101,7 +103,8 @@ ul li a{
     display: flex;
     flex-direction: row;
     column-gap: 30px;
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .info-box{
     display: flex;
@@ -123,16 +126,16 @@ ul li a{
     font-weight: 700;
 }
 .text-section{
-    height: 50vh;
-    background-color: #b3b3b3b8 ;
+    background-color: #b3b3b3b8;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .text-quote{
-    margin: 0px 200px;
+ margin: 10px 40px;
 }
+
 .text-quote p{
     font-size: 25px;
 }
@@ -145,12 +148,14 @@ ul li a{
     font-size: 20px;
 }
 .action{
-    height: 50vh;
+    /* height: 50vh; */
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px 20px;
 }
+
 .action-box{
     width: 70%;
     height: 30%;
